@@ -22,6 +22,7 @@ namespace AccessTokensQuickstart
             var user = identityAndTokenResponse.Value.User;
             var token = identityAndTokenResponse.Value.AccessToken.Token;
 
+            Console.WriteLine($"{user.Id}\n");
             Console.WriteLine(token);
 
             // ID削除
