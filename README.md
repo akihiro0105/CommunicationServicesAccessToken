@@ -12,7 +12,7 @@
 4. `Program.cs` の `endpoint` と `accessKey` に Azure Communication Services から取得した値を入力
 5. ビルドを行い
     - `dotnet build`
-6. 実行するとアクセストークンが発行される
+6. 実行するとユーザーIDとアクセストークンが発行される
     - `dotnet run`
 
-*アクセストークンをファイルに保存しておきたい場合には `dotnet run > token.txt` でファイル出力*
+*ユーザーIDとアクセストークンをファイルに保存しておきたい場合には `dotnet run > token.txt` でファイル出力*
